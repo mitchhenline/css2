@@ -1,0 +1,41 @@
+body {
+    height: 96vw;
+    width: 90vw;
+}
+
+header {
+    height: 200px;
+    width: 99vw;
+    background-color: rgb(127, 127, 127);
+    z-index: 5;
+    position: fixed;
+
+
+}
+
+footer {
+    height: 90px;
+    width: 99vw;
+    background-color: rgb(59, 59, 59);
+    position: fixed;
+    bottom: 0px;
+    z-index: 1;
+}
+
+#left {
+    background-color: darkgray;
+    width: 200px;
+    height: 99vw;
+    z-index: 2;
+    position: fixed;
+    
+}
+
+#right {
+    background-color: darkgray;
+    width: 200px;
+    height: 99vw;
+    position: fixed;
+    right: 0px;
+    z-index: 2;
+}
